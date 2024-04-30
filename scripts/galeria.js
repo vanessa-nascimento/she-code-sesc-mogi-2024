@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: './images/8.jpeg' },
         { src: './images/9.jpeg' },
         { src: './images/10.jpeg' },
-        { src: './images/11.jpeg' },
       ];
 
       fotos.forEach(foto => {
