@@ -7,7 +7,7 @@ body {
   
   .top-bar {
     height: 10px;
-    background-color: #FF69B4;
+    background-color: #f78fb3;
   }
   
   .container {
@@ -22,8 +22,13 @@ body {
   }
   
   h1 i {
-    color: #FF69B4;
+    color: #f78fb3;
     margin-right: 10px;
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 50px;
   }
   
   .workshop-description {
@@ -33,14 +38,14 @@ body {
     margin-bottom: 20px;
   }
   
-  .buttons {
+  .button {
     text-align: center;
     margin-bottom: 20px;
   }
   
   .btn {
     display: inline-block;
-    background-color: #FF69B4;
+    background-color: #f78fb3;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -49,16 +54,20 @@ body {
   }
   
   .btn:hover {
-    background-color: #E63C87;
+    background-color: #f8a5c2;
   }
   
-  .mural {
+  .mural, .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 10px;
+  }
+
+  a {
+    text-decoration: none;
   }
   
-  .card {
+  .mural .card {
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -66,12 +75,21 @@ body {
     transition: transform 0.3s ease;
   }
   
-  .card:hover {
+  .mural .card:hover {
     transform: translateY(-5px);
+    background-color: #f78fb3;
+  }
+
+  .galeria .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
   }
   
   .card i {
-    color: #FF69B4;
+    color: #f78fb3;
     margin-right: 10px;
   }
   
