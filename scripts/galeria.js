@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const image = document.createElement('img');
         image.classList.add('image');
         image.setAttribute('src', foto.src)
-        image.setAttribute('width', '350')
+        image.setAttribute('width', '100%')
   
         cardImg.appendChild(image);
         galeria.appendChild(cardImg);
